@@ -6,8 +6,8 @@ Calculate network ranges, CIDRs etc. Written in pure Bash. I probably wrote it a
 $ ./ipcalc.sh -h
 Usage:
 ipcalc.sh [OPTIONS] NETWORK
-  -r,--print-ip-range	Print all IPs in the range, one per line.
-  -h,--help				Print this help message.
+  -r,--print-ip-range   Print all IPs in the range, one per line.
+  -h,--help             Print this help message.
 
 NETWORK is an IP and a prefix or netmark separated with a slash. For example:
 - 192.168.0.1/24
