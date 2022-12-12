@@ -1,4 +1,4 @@
-# bash-ip-calculator
+# Bash IP calculator
 
 Calculate network ranges, CIDRs etc. Written in pure Bash. I probably wrote it around 2015 and found it now while wiping an old laptop. Made for fun rather than being useful.
 
