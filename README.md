@@ -2,7 +2,7 @@
 
 Calculate network ranges, CIDRs etc. Written in pure Bash. I probably wrote it around 2015 and found it now while wiping an old laptop. Made for fun rather than being useful.
 
-```
+```console
 $ ./ipcalc.sh -h
 Usage:
 ipcalc.sh [OPTIONS] NETWORK
@@ -16,7 +16,7 @@ NETWORK is an IP and a prefix or netmark separated with a slash. For example:
 
 Example using CIDR:
 
-```
+```console
 $ ./ipcalc.sh 192.168.1.13/27
 Address (dec): 192.168.1.13
 Address (bin): 11000000 10101000 00000001 00001101
@@ -32,7 +32,7 @@ Broadcast: 192.168.1.31
 
 Example using IP and netmask:
 
-```
+```console
 $ ./ipcalc.sh 10.0.2.0/255.255.255.0
 Address (dec): 10.0.2.0
 Address (bin): 00001010 00000000 00000010 00000000
@@ -48,7 +48,7 @@ Broadcast: 10.0.2.255
 
 Example printing all IPs:
 
-```
+```console
 $ ./ipcalc.sh --print-ip-range 127.0.0.0/29
 Address (dec): 127.0.0.0
 Address (bin): 01111111 00000000 00000000 00000000
@@ -72,7 +72,7 @@ Broadcast: 127.0.0.7
 
 Example using multilpe networks:
 
-```
+```console
 $ ./ipcalc.sh 192.168.1.13/27 10.0.2.0/255.255.255.0
 Address (dec): 192.168.1.13
 Address (bin): 11000000 10101000 00000001 00001101
