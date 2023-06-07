@@ -39,7 +39,6 @@ netmaskBin_to_wildcard() {
 ## Convert binary ip to decimal ip
 # @param binary ip in octets separated with space
 # @result dot separated ip
-# netmask bin = rätt, netmask to ip = wrong last octet for 32
 binary_to_ip() {
 	local binary="$1"
 	local ip
